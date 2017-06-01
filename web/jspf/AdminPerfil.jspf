@@ -1,0 +1,33 @@
+<div class="span3 well">
+    
+    <div class="modal hide" id="perfil">
+        <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">?</button>
+            <h3>Acerca Del Desarrollador</h3>
+        </div>
+        <div class="modal-body" style="text-align:center;">
+            <div class="row-fluid">
+                <div class="span10 offset1">
+                    <div id="modalTab">
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="about">
+                                <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRbezqZpEuwGSvitKy3wrwnth5kysKdRqBW54cAszm_wiutku3R" name="aboutme" width="140" height="140" border="0" class="img-circle"></a>
+                                <h3 class="media-heading"><%= cli.getNombre()%> <%=cli.getApellido()%></h3>
+                                <span><strong>Habilidades : </strong></span>
+                                <span class="label label-warning">Programador Java</span>
+                                <span class="label label-info">Adobe CS 5.5</span>
+                                <span class="label label-info">Microsoft Office</span>
+                                <hr>
+                                <center>
+                                    <p class="text-left"><strong>Biografia: </strong><br>
+                                        Nacio el : <%= cli.getFecha_n()%> ,<strong> En Tumbes </strong></p>
+                                    <br>
+                                </center>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

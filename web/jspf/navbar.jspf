@@ -1,0 +1,45 @@
+
+<!--Header-part-->
+<div id="header">
+    <h1><a href="#">Brandux Admin</a></h1>
+</div>
+<!--close-Header-part--> 
+
+
+<!--top-Header-menu-->
+<div id="user-nav" class="navbar navbar-inverse">
+    <ul class="nav">
+        <li  class="dropdown" id="profile-messages" ><a title="" href="#" data-toggle="dropdown" data-target="#profile-messages" class="dropdown-toggle"><i class="icon icon-user"></i>  <span class="text"><%= cli.getNombre()%></span><b class="caret"></b></a>
+            <ul class="dropdown-menu">
+                <li><a href="#" data-toggle="modal" data-target="#perfil"><i class="icon-user"></i> Mi Perfil</a></li>
+                <li class="divider"></li>
+                <li><a href="close"><i class="icon-key"></i> Cerrar</a></li>
+            </ul>
+        </li>
+    </ul>
+</div>
+<!--close-top-Header-menu-->
+<!--start-top-serch-->
+<div id="search">
+    <input type="text" placeholder="Search here..."/>
+    <button type="submit" class="tip-bottom" title="Search"><i class="icon-search icon-white"></i></button>
+</div>
+<!--close-top-serch-->
+<!--sidebar-menu-->
+<div id="sidebar"><a href="#" class="visible-phone"><i class="icon icon-home"></i> Dashboard</a>
+    <ul>
+        <li class="active"><a href="listar"><i class="icon icon-home"></i> <span>Inicio</span></a> </li>
+        <li class="submenu"> <a href="#"><i class="icon icon-pencil"></i> <span>Forms</span></a>
+            <ul>
+                <li><a href="listar">Clientes Afiliados</a></li>
+                <li><a href="listar">Registro de Productos</a></li>
+                <li><a href="listar">Ventas Realizadas</a></li>
+            </ul>
+        </li>
+    </ul>
+</div>
+<!--sidebar-menu-->
+
+
+
+<!--end-main-container-part-->

@@ -1,0 +1,28 @@
+<!--Footer-part-->
+
+<div class="row-fluid">
+  <div id="footer" class="span12"> 2017 &copy; BRANDUX JUAREZ. </div>
+</div>
+
+<!--end-Footer-part-->
+<script src="<c:url value='recursos/js/excanvas.min.js'/>"></script> 
+        <script src="<c:url value='recursos/js/jquery.min.js'/>"></script> 
+        <script src="<c:url value='recursos/js/jquery.ui.custom.js'/>"></script> 
+        <script src="<c:url value='recursos/js/bootstrap.min.js'/>"></script> 
+        <script src="<c:url value='recursos/js/jquery.flot.min.js'/>"></script> 
+        <script src="<c:url value='recursos/js/jquery.flot.resize.min.js'/>"></script> 
+        <script src="<c:url value='recursos/js/jquery.peity.min.js'/>"></script> 
+        <script src="<c:url value='recursos/js/fullcalendar.min.js'/>"></script> 
+        <script src="<c:url value='recursos/js/matrix.js'/>"></script> 
+        <script src="<c:url value='recursos/js/matrix.dashboard.js'/>"></script> 
+        <script src="<c:url value='recursos/js/jquery.gritter.min.js'/>"></script> 
+        <script src="<c:url value='recursos/js/matrix.interface.js'/>"></script> 
+        <script src="<c:url value='recursos/js/matrix.chat.js'/>"></script> 
+        <script src="<c:url value='recursos/js/jquery.validate.js'/>"></script> 
+        <script src="<c:url value='recursos/js/matrix.form_validation.js'/>"></script> 
+        <script src="<c:url value='recursos/js/jquery.wizard.js'/>"></script> 
+        <script src="<c:url value='recursos/js/jquery.uniform.js'/>"></script> 
+        <script src="<c:url value='recursos/js/select2.min.js'/>"></script> 
+        <script src="<c:url value='recursos/js/matrix.popover.js'/>"></script> 
+        <script src="<c:url value='recursos/js/jquery.dataTables.min.js'/>"></script> 
+        <script src="<c:url value='recursos/js/matrix.tables.js'/>"></script> 
